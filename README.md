@@ -32,6 +32,9 @@ The pipeline is designed to:
 - **Random Image Classification Consumer**: Listens to the Kafka topic and performs simulated classification.
 - **Grayscale Conversion Consumer**: Converts images to grayscale and saves the processed images.
 
+### kafka_consumer_msg
+- that function will display the success and failed messages
+
 ## Technologies Used
 
 - **Apache Kafka**: For message brokering and event handling.
