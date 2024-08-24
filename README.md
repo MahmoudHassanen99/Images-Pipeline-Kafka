@@ -16,6 +16,9 @@ The pipeline is designed to:
 1. **Upload an Image**: Send a `POST` request to `http://localhost:5000/` with an image file.
 2. if the image will upload and send success message to kafka, and if not it will display simple alert and send failed message to kafka topic.
 3. **View Processed Results**: Check the specified output directories for classification results and grayscale images.
+4. **Display success and failed messages**: Send a `POST` request to `http://localhost:5000/messages`
+
+   
 ## Components
 
 ### Flask Server
