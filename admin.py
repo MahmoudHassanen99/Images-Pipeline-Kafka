@@ -1,7 +1,7 @@
 from confluent_kafka.admin import NewTopic, AdminClient,KafkaException
 import logging
 conf = {
-    'bootstrap.servers': '34.138.205.183:9094,34.138.104.233:9094,34.138.118.154:9094',
+    'bootstrap.servers': 'localhost:9092',
 }
 admin_client = AdminClient(conf)
 
